@@ -6,4 +6,5 @@ module  org.peters.udasecurity.security {
     requires java.desktop;
     requires java.prefs;
     requires org.peters.udasecurity.images;
+    opens com.google.gson to org.peters.udasecurity.security;
 }
